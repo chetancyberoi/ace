@@ -7,7 +7,7 @@ const ConfigStore = require('./config-store');
 const paths = envPaths(constants.dirname, { suffix: null });
 
 const config = new ConfigStore({
-  cwd: paths.config,
+  cwd: '/tmp/ace/',
 });
 
 module.exports = {
